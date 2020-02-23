@@ -1,0 +1,11 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [NO]
+      ,[AD]
+      ,[SOYAD]
+      ,[TELNO]
+      ,[ADRES]
+      ,[GOREV ]
+      ,[MAAS]
+      ,[İZİN ]
+      ,[YETKİ]
+  FROM [3. hafta calisma].[dbo].[calisanliste]
